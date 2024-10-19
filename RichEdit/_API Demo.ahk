@@ -523,4 +523,4 @@ return
 
 #Include RichEdit.ahk
 #Include Todo.ahk
-#include inc\Dlg.ahk
+#Include ..\Dlg\Dlg.ahk

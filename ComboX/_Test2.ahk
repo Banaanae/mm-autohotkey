@@ -98,4 +98,4 @@ LV_ItemRect(HwndLV, Row, ByRef p1, ByRef p2, ByRef p3, ByRef p4) {
 }
 
 #include ComboX.ahk
-#include inc\Attach.ahk   ;sample include
+#Include ..\Attach\Attach.ahk   ;sample include

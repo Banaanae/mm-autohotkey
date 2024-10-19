@@ -78,4 +78,4 @@ return
 #include Attach.ahk
 
 ;sample include
-#include inc\Win.ahk
+#Include ..\Win\Win.ahk

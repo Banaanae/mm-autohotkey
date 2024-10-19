@@ -32,5 +32,5 @@ return
 
 
 #include Align.ahk
-#include inc\Win.ahk
-#include inc\Panel.ahk
+#Include ..\Win\Win.ahk
+#Include ..\Panel\Panel.ahk

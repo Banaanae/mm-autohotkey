@@ -113,5 +113,5 @@ OnBtn:
 return
 
 #Include RaGrid.ahk
-#include inc\Attach.ahk
-#include inc\Il.ahk
+#Include ..\Attach\Attach.ahk
+#Include ..\Shell\Il.ahk

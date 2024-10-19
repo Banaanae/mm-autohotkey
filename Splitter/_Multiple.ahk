@@ -55,5 +55,5 @@ GuiClose:
 return
 
 #include Splitter.ahk
-#include inc\Attach.ahk
-#include inc\Win.ahk
+#Include ..\Attach\Attach.ahk
+#Include ..\Win\Win.ahk

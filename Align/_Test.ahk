@@ -12,7 +12,7 @@ SetWinDelay, -1
 	Gui, Add, Edit,		HWNDhEdit, F1 - hide`nF2 - show
 	hSplit := Splitter_Add()
 	Gui, Add, ListView,	HWNDhList, Top control
-	Gui, Add, Text,		h100 0x200 HWNDhText,  Bottom
+	Gui, Add, Text,		h100 0x200 HWNDhText, ï¿½Bottom
 	Gui, Add, MonthCal, HWNDhCal	
 
 	sdef = %hEdit% | %hList% %hText% %hCal%			;vertical splitter.
@@ -72,8 +72,8 @@ GuiClose:
 return
 
 #include Align.ahk
-#include inc\Win.ahk
+#Include ..\Win\Win.ahk
 
 ;sample includes
-#include inc\Attach.ahk
-#include inc\Splitter.ahk
+#Include ..\Attach\Attach.ahk
+#Include ..\Splitter\Splitter.ahk

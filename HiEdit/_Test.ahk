@@ -344,5 +344,5 @@ return
 #include HiEdit.ahk
 
 ;sample includes
-#include inc\Dlg.ahk
-#include inc\Attach.ahk
+#Include ..\Dlg\Dlg.ahk
+#Include ..\Attach\Attach.ahk
